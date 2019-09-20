@@ -2,11 +2,11 @@
 Poker Game
 
 ## Installation & Build
-1. npm install
-2. npm run build
+1. `npm install`
+2. `npm run build`
 
 ## Running the app
-1. npm start
+1. `npm start`
 
 ## To add test cases
-1. add a `json file` in input folder
+1. add a `json` file in input folder

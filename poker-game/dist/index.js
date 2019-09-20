@@ -16,15 +16,15 @@ const cardDeck_1 = require("./deck/cardDeck");
 const player_1 = require("./player/player");
 const main = () => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const rawdata = yield readFile('inputs/testcase1.json');
+        const rawdata = yield readFile('inputs/testcase4.json');
         const { data } = JSON.parse(rawdata);
         const players = [];
         const cardDeck = new cardDeck_1.CardDeck();
         data.forEach((playerData) => {
             const { player: playerId, cards } = playerData;
             const cardPlayer = new player_1.Player(playerId);
-            cards.forEach((card) => {
-                cardPlayer.addCard(card.suit, card.displayValue, cardDeck);
+            cards.forEach((card, i) => {
+                cardPlayer.addCard(card, cardDeck);
             });
             players.push(cardPlayer);
         });
@@ -33,11 +33,11 @@ const main = () => __awaiter(void 0, void 0, void 0, function* () {
             throw `Invalid configuration in player hands`;
         }
         players.forEach(player => {
-            player.getPokerHand(cardDeck);
+            player.setPokerHand(cardDeck);
         });
-        // console.log(players[0]);
-        // console.log(JSON.stringify(cardDeck));
+        // console.log(players[2]);
         // card are valid, decide a winner
+        cardDeck.decideWinner(players);
     }
     catch (e) {
         console.error(`Cannot read file : ${e}`);

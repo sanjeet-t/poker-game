@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const cardDisplayMap_1 = require("./cardDisplayMap");
+const poker_interface_1 = require("../common/poker.interface");
 class Card {
     constructor(suit, value) {
         this.assignPlayer = (playerId) => {
@@ -8,7 +8,8 @@ class Card {
         };
         this.suit = suit;
         this.value = value;
-        this.displayValue = cardDisplayMap_1.displayMap[`${value}`];
+        this.displayValue = poker_interface_1.valueToDisplayMap[`${value}`];
+        this.rank = poker_interface_1.valueToRankMap[`${value}`];
     }
 }
 exports.Card = Card;

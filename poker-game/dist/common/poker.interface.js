@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.displayMap = {
+exports.valueToDisplayMap = {
     '1': 'A',
     '2': '2',
     '3': '3',
@@ -15,7 +15,22 @@ exports.displayMap = {
     '12': 'Q',
     '13': 'K'
 };
-exports.rankMap = {
+exports.displayToRankMap = {
+    A: 1,
+    '2': 13,
+    '3': 12,
+    '4': 11,
+    '5': 10,
+    '6': 9,
+    '7': 8,
+    '8': 7,
+    '9': 6,
+    '10': 5,
+    J: 4,
+    Q: 3,
+    K: 2
+};
+exports.valueToRankMap = {
     '1': 1,
     '2': 13,
     '3': 12,

@@ -1,7 +1,9 @@
 # IQ Coding Challenge
 Poker Game
 
-## Installation
+## Installation & Build
 1. npm install
 2. npm run build
-3. npm start
+
+## Running the app
+1. npm start

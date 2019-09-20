@@ -9,4 +9,4 @@ Poker Game
 1. `npm start`
 
 ## To add test cases
-1. add a `json` file in input folder
+1. add a `json` file in `input` folder

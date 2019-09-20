@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "player": "joe",
+      "cards": [
+        {
+          "displayValue": "5",
+          "suit": "hearts"
+        },
+        {
+          "displayValue": "6",
+          "suit": "hearts"
+        },
+        {
+          "displayValue": "8",
+          "suit": "hearts"
+        },
+        {
+          "displayValue": "J",
+          "suit": "hearts"
+        },
+        {
+          "displayValue": "K",
+          "suit": "hearts"
+        }
+      ]
+    },
+    {
+      "player": "jen",
+      "cards": [
+        {
+          "displayValue": "3",
+          "suit": "clubs"
+        },
+        {
+          "displayValue": "3",
+          "suit": "diamonds"
+        },
+        {
+          "displayValue": "3",
+          "suit": "spades"
+        },
+        {
+          "displayValue": "8",
+          "suit": "clubs"
+        },
+        {
+          "displayValue": "10",
+          "suit": "diamonds"
+        }
+      ]
+    },
+    {
+      "player": "bob",
+      "cards": [
+        {
+          "displayValue": "2",
+          "suit": "hearts"
+        },
+        {
+          "displayValue": "5",
+          "suit": "clubs"
+        },
+        {
+          "displayValue": "7",
+          "suit": "spades"
+        },
+        {
+          "displayValue": "10",
+          "suit": "clubs"
+        },
+        {
+          "displayValue": "A",
+          "suit": "clubs"
+        }
+      ]
+    }
+  ]
+}

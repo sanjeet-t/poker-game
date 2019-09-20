@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "player": "joe",
+      "cards": [
+        {
+          "displayValue": "5",
+          "suit": "hearts"
+        },
+        {
+          "displayValue": "6",
+          "suit": "hearts"
+        },
+        {
+          "displayValue": "8",
+          "suit": "hearts"
+        },
+        {
+          "displayValue": "J",
+          "suit": "hearts"
+        },
+        {
+          "displayValue": "K",
+          "suit": "hearts"
+        }
+      ]
+    }
+  ]
+}

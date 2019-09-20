@@ -30,8 +30,6 @@ const main = async () => {
       player.setPokerHand(cardDeck);
     });
 
-    // console.log(players[2]);
-
     // card are valid, decide a winner
     cardDeck.decideWinner(players);
   } catch (e) {
